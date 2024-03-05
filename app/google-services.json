@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "27755407068",
+    "project_id": "lab1ph34554-8da4a",
+    "storage_bucket": "lab1ph34554-8da4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27755407068:android:dddce206f664c6dbc83619",
+        "android_client_info": {
+          "package_name": "duyndph34554.fpoly.lab1ph34554"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIj5H993MN3V3SfZeAJFL8Yl81brlpAeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

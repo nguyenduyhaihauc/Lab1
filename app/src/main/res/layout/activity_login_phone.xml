@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_margin="10dp"
+    tools:context=".LoginPhone">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number:"
+        android:textSize="15dp"
+
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtPhoneLg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập Phone Number"
+        android:background="@drawable/custon_btn"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnGetOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="GET OTP"
+        android:backgroundTint="#FF9800"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OTP"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edtOtp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập Phone Number"
+        android:background="@drawable/custon_btn"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnPhoneLg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Login"
+        android:backgroundTint="#FF9800"/>
+</LinearLayout>
